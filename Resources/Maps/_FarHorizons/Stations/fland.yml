@@ -2,9 +2,9 @@ meta:
   format: 7
   category: Map
   engineVersion: 288.1.0
-  forkId: farhorizons
-  forkVersion: e76355779
-  time: 11/25/2026 13:38:59
+  forkId: ""
+  forkVersion: ""
+  time: 11/28/2026 13:31:41
   entityCount: 43114
 maps:
 - 1
@@ -128085,7 +128085,7 @@ entities:
       pos: 106.5,-30.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -118294.5
+      secondsUntilStateChange: -118378.9
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -128396,7 +128396,7 @@ entities:
       pos: 104.5,-30.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -118296.56
+      secondsUntilStateChange: -118380.96
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -129578,7 +129578,7 @@ entities:
       pos: -15.5,-6.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -131094.12
+      secondsUntilStateChange: -131178.53
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -129731,7 +129731,7 @@ entities:
       pos: 57.5,12.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -181337.27
+      secondsUntilStateChange: -181421.67
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -129801,7 +129801,7 @@ entities:
       pos: 8.5,-8.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -113824.84
+      secondsUntilStateChange: -113909.24
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -131040,7 +131040,7 @@ entities:
       pos: 28.5,4.5
     - type: Door
       state: Opening
-      secondsUntilStateChange: -175886.38
+      secondsUntilStateChange: -175970.78
     - type: DeviceLinkSource
       lastSignals:
         DoorStatus: True
@@ -133483,7 +133483,7 @@ entities:
       pos: 109.5,-34.5
     - type: Door
       state: Closing
-      secondsUntilStateChange: -117179.164
+      secondsUntilStateChange: -117263.56
     - type: Firelock
       emergencyCloseCooldown: 2671.8639968
     - type: DeviceNetwork
@@ -188107,17 +188107,6 @@ entities:
       pos: -15.5,40.5
     - type: AtmosPipeColor
       color: '#0055CCFF'
-  - uid: 27823
-    components:
-    - type: Transform
-      parent: 2
-      rot: -1.5707963267948966 rad
-      pos: -4.5,26.5
-    - type: DeviceNetwork
-      deviceLists:
-      - 330
-    - type: AtmosPipeColor
-      color: '#0055CCFF'
   - uid: 27824
     components:
     - type: Transform
@@ -188222,6 +188211,19 @@ entities:
       - 280
     - type: AtmosPipeColor
       color: '#990000FF'
+- proto: GasVentPumpFreezerAlt1
+  entities:
+  - uid: 27823
+    components:
+    - type: Transform
+      parent: 2
+      rot: -1.5707963267948966 rad
+      pos: -4.5,26.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 330
+    - type: AtmosPipeColor
+      color: '#0055CCFF'
 - proto: GasVentScrubber
   entities:
   - uid: 27834
@@ -190802,17 +190804,6 @@ entities:
       - 137
     - type: AtmosPipeColor
       color: '#990000FF'
-  - uid: 28081
-    components:
-    - type: Transform
-      parent: 2
-      rot: 1.5707963267948966 rad
-      pos: -6.5,26.5
-    - type: DeviceNetwork
-      deviceLists:
-      - 330
-    - type: AtmosPipeColor
-      color: '#990000FF'
   - uid: 28082
     components:
     - type: Transform
@@ -191105,6 +191096,19 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 320
+    - type: AtmosPipeColor
+      color: '#990000FF'
+- proto: GasVentScrubberFreezerAlt2
+  entities:
+  - uid: 28081
+    components:
+    - type: Transform
+      parent: 2
+      rot: 1.5707963267948966 rad
+      pos: -6.5,26.5
+    - type: DeviceNetwork
+      deviceLists:
+      - 330
     - type: AtmosPipeColor
       color: '#990000FF'
 - proto: GavelBlock
